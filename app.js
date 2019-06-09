@@ -1,5 +1,5 @@
-const btn =document.querySelector('.talk');
-const content = document.querySelector('.content');
+const btn = document.querySelector('#talk');
+const content = document.querySelector('#content');
 const greetings = ['im good homeboi','why do you care','Fuck off'];
 const weather = ['it\'s fine why do you even care you dont even get out of you room','it\'s 55 a lovely weather for a tan'];
 const SpeechRecognitiion = window.SpeechRecognitiion || window.webkitSpeechRecognition;
